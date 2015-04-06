@@ -1,0 +1,37 @@
+body{
+	background-color: #4cafe3;
+	background-image: url(../img/fondo-nube.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	font-size: 16px;
+}
+
+section{
+	margin: 0 auto;
+	margin-top: 160px;
+	width: 460px;
+}
+
+figure{
+	margin: 0 0 40px 0;
+	padding: 0;
+	height: 282px;
+	width: 460px;
+}
+
+a{
+	display: block;
+	background-color: #eb8222;
+	color: white;
+	padding: 15px 30px 5px 30px;
+	text-decoration: none;
+	width: 100px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "bignoodletitlingregular", arial;
+	font-size: 2em;
+}
+
+a:hover{
+	background-color: #fcac1c;
+}

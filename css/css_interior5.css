@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+body{
+	background-color: #4cafe3;
+	background-image: url(../img/fondo-nube.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	font-size: 16px;
+}
+
+header, section{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+
+/*-- CABECERA CON MENU --*/
+nav{
+	/*background-color: yellow;*/
+	display: block;
+	font-family: "bignoodletitlingregular", arial;
+	font-size: 2em;
+	height: 155px;
+	padding: 10px;
+	width: 980px;
+	margin-bottom: 10px;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li a{
+	/*background-color: red;*/
+	color: white;
+	display: block;
+	padding: 10px 30px 5px 30px;
+	text-decoration: none;
+}
+
+.menuDesplegable > li{
+	float: left;
+	margin-top: 50px;
+}
+
+li:nth-child(3){ 
+	margin-top: 0 !important;
+}
+
+ul li a:hover{
+	text-decoration: underline;
+}
+
+.menuDesplegable li ul{
+	display: none;
+	font-size: 0.8em;
+	position: absolute;
+	min-width: 148px;
+	text-align: center;
+}
+
+.menuDesplegable li:hover > ul{
+	display: block;
+}
+
+.menuDesplegable li ul li {
+	position: relative;
+}
+
+.menuDesplegable li ul li ul{
+	font-size: 1em;
+	right: -148px;
+	top: 0;
+}
+
+
+.menuDesplegable li ul li a{
+	background-color: #4cafe3;
+	border-bottom: 1px solid #3ea2d7;
+}
+
+.menuDesplegable li ul li a:hover{
+	background-color: #eb8222;
+	text-decoration: none;
+}
+
+.logotipo{
+	margin: 0 40px;
+}
+
+
+/*-- CUERPO / INFO --*/
+figure{
+	height: 400px;
+	margin: 0;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+section{
+	font-family: 'oswaldlight', arial;
+	color: white;
+	letter-spacing: 0.01em;
+}
+
+article{
+	/*background-color: green;*/
+	display: block;
+	height: 260px;
+	padding: 0 80px;
+}
+
+h1{
+	font-size: 2.75em;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+section ul{
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	display: block;
+	width: 830px;
+	height: 650px;
+}
+
+section ul li{
+	float: left;
+	margin: 0 10px 10px 0;
+	background: #fff;
+	width: 200px;
+	height: 200px;
+}
+
+section ul li a{
+	display: block;
+	width: 200px;
+	height: 200px;
+	transition:background 0.5s;
+	-moz-transition:background 0.5s;
+	-ms-transition:background 0.5s;
+	-o-transition:background 0.5s;
+	-webkit-transition:background 0.5s;
+}
+
+.sinMargen{
+	margin: 0 0 10px 0 !important;
+}
+
+.mini01{ background: url(../img/item0.jpg) no-repeat no-repeat; }
+.mini01:hover{ background: url(../img/item0on.gif) no-repeat no-repeat; }
+
+.mini02{ background: url(../img/item0.jpg) no-repeat no-repeat; }
+.mini02:hover{ background: url(../img/item0on.gif) no-repeat no-repeat; }
+
+.mini03{ background: url(../img/item0.jpg) no-repeat no-repeat; }
+.mini03:hover{ background: url(../img/item0on.gif) no-repeat no-repeat; }
+
+.mini04{ background: url(../img/item0.jpg) no-repeat no-repeat; }
+.mini04:hover{ background: url(../img/item0on.gif) no-repeat no-repeat; }
+
+
+/*-- PIE DE PAGINA --*/
+footer{
+	border-top: 1px solid white;
+	margin: 0 auto;
+	padding: 20px;
+	width: 960px;
+	font-family: 'oswaldlight', arial;
+	color: white;
+	letter-spacing: 0.01em;
+}
+
+footer p{
+	font-size: 0.9em;
+	margin-bottom: 30px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer p:first-child{
+	float: left;
+}
+
+footer p:last-child{
+	float: right;
+}

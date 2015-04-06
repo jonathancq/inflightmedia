@@ -1,0 +1,260 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #4cafe3;
+	background-image: url(../img/fondo-nube.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	font-size: 16px;
+}
+
+header, section{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+
+/*-- CABECERA CON MENU --*/
+nav{
+	/*background-color: yellow;*/
+	display: block;
+	font-family: "bignoodletitlingregular", arial;
+	font-size: 2em;
+	height: 155px;
+	padding: 10px;
+	width: 980px;
+	margin-bottom: 10px;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li a{
+	/*background-color: red;*/
+	color: white;
+	display: block;
+	padding: 10px 30px 5px 30px;
+	text-decoration: none;
+}
+
+.menuDesplegable > li{
+	float: left;
+	margin-top: 50px;
+}
+
+li:nth-child(3){ 
+	margin-top: 0 !important;
+}
+
+ul li a:hover{
+	text-decoration: underline;
+}
+
+.menuDesplegable li ul{
+	display: none;
+	font-size: 0.8em;
+	position: absolute;
+	min-width: 148px;
+	text-align: center;
+}
+
+.menuDesplegable li:hover > ul{
+	display: block;
+}
+
+.menuDesplegable li ul li {
+	position: relative;
+}
+
+.menuDesplegable li ul li ul{
+	font-size: 1em;
+	right: -148px;
+	top: 0;
+}
+
+.menuDesplegable li ul li a{
+	background-color: #4cafe3;
+	border-bottom: 1px solid #3ea2d7;
+}
+
+.menuDesplegable li ul li a:hover{
+	background-color: #eb8222;
+	text-decoration: none;
+}
+
+.logotipo{
+	margin: 0 40px;
+}
+
+
+/*-- CUERPO / INFO --*/
+section{
+	font-family: 'oswaldlight', arial;
+	color: white;
+	letter-spacing: 0.01em;
+}
+
+.plantilla{
+	overflow: hidden;
+	background-image: url(../img/plantilla.png);
+	height: 456px;
+	margin: 0 auto;
+	width: 844px;
+	margin-bottom: 100px;
+}
+
+.crear{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	color: #3d48a9;
+	font-size: 1.8em;
+	width: 380px;
+	padding: 20px;
+	border: 2px solid #3d48a9;
+}
+
+.crear a{
+	color: #3d48a9;
+}
+
+.seleccionar{
+	display: block;
+	margin: 0 auto;
+	width: 230px;
+	background-color: #eb8222;
+	color: white;
+	font-family: 'oswaldlight', arial;
+	font-size: 1.1em;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.seleccionar:hover{
+	background-color: #fcac1c;
+}
+
+/*-- PAGINA DIRIGIBLE PERSONALIZADO --*/
+.customizado{
+	overflow: hidden;
+	background-image: url(../img/plantilla2.png);
+	height: 456px;
+	margin: 0 auto;
+	width: 844px;
+	position: relative;
+}
+
+.logoCliente{
+	display: block;
+	height: 368px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 844px;
+}
+
+.logoCliente img{
+	max-height: 368px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 80px; /*--CORRIGE ESTO PORFA--*/
+}
+
+.efectoVolumen{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.contactanos{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -50px;
+	margin-bottom: 20px;
+	color: #3d48a9;
+	font-size: 1.8em;
+	width: 600px;
+	padding: 20px;
+	border: 2px solid #3d48a9;
+}
+
+.contactanos a{
+	color: #3d48a9;
+}
+
+.cajaFormulario{
+
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	width: 644px;
+}
+
+.campo{
+	border: 0;
+	padding: 12px;
+	width: 340px;
+	color: #3d48a9;
+}
+
+*::-webkit-input-placeholder{
+    color: #3d48a9;
+}
+*:-ms-input-placeholder{
+    color: #3d48a9;
+}
+*:-moz-placeholder{
+    color: #3d48a9;
+}
+*::-moz-placeholder{
+    color: #3d48a9;
+}
+
+.btn{
+	background: #eb8222;
+	border: 0;
+	color: white;
+	margin-left: -3px;
+	padding: 12px;
+	width: auto;
+}
+
+.enviarPdf{
+	float: right;
+}
+
+/*-- PIE DE PAGINA --*/
+footer{
+	border-top: 1px solid white;
+	margin: 0 auto;
+	padding: 20px;
+	width: 960px;
+	font-family: 'oswaldlight', arial;
+	color: white;
+	letter-spacing: 0.01em;
+}
+
+footer p{
+	font-size: 0.9em;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer p:first-child{
+	float: left;
+}
+
+footer p:last-child{
+	float: right;
+}
