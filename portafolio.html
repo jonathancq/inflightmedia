@@ -8,6 +8,37 @@
 	<link rel="stylesheet" href="css/css_interior5.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+     <!-- Add fancyBox -->  
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+    <script type="text/javascript">
+      $(".fancybox")
+	      .attr('rel', 'gallery')
+	      .fancybox({
+	        padding : 0
+      });
+
+      $(document).ready(function() {
+
+        $(".various").fancybox({
+	          maxWidth  	: 760,
+	          maxHeight 	: 500,
+	          fitToView 	: false,
+	          width   		: '90%',
+	          height    	: '90%',
+	          autoSize  	: false,
+	          closeClick  	: false,
+	          openEffect  	: 'none',
+	          closeEffect 	: 'none'
+	        });
+	    });
+    </script>
+
 </head>
 <body>
 	<header>
@@ -36,11 +67,51 @@
 	<section>
 			<h1>Portafolio</h1>
 			<ul>
-            <li><a rel="group" class="mini01 various" data-fancybox-type="iframe" href="portafolio1.html"></a></li>
-            <li><a rel="group" class="mini02 various2" data-fancybox-type="iframe" href="portafolio2.html"></a></li>
-            <li><a rel="group" class="mini03 various" data-fancybox-type="iframe" href="portafolio3.html"></a></li>
-            <li class="sinMargen"><a rel="group" class="mini04 various" data-fancybox-type="iframe" href="portafolio4.html"></a></li>
-        </ul>
+				<li>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><img src="http://lorempixel.com/220/220/abstract" /></a>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p></a>
+				</li>
+
+				<li>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><img src="http://lorempixel.com/220/220/animals" /></a>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><p>Buidem rem reiciendis sequi eveniet repellendus</p></a>
+				</li>
+
+				<li>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><img src="http://lorempixel.com/220/220/business" /></a>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><p>Quod quas architecto in consequatur adipisci hic</p></a>
+				</li>
+
+				<li>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><img src="http://lorempixel.com/220/220/transport" /></a>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p></a>
+				</li>
+
+				<li>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><img src="http://lorempixel.com/220/220/city" /></a>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><p>Lorem ipsum dolor sit</p></a>
+				</li>
+
+				<li>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><img src="http://lorempixel.com/220/220/food" /></a>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><p>Buidem rem reiciendis sequi eveniet repellendus</p></a>
+				</li>
+
+				<li>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><img src="http://lorempixel.com/220/220/nightlife" /></a>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><p>Quod quas architecto in consequatur adipisci hic</p></a>
+				</li>
+
+				<li>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><img src="http://lorempixel.com/220/220/fashion" /></a>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p></a>
+				</li>
+
+				<li>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><img src="http://lorempixel.com/220/220/people" /></a>
+					<a rel="group" class="various" data-fancybox-type="iframe" href="portafolio1.html"><p>Buidem rem reiciendis</p></a>
+				</li>
+			</ul>
 	</section>
 	
 	<footer>

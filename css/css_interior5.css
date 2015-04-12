@@ -108,64 +108,66 @@ section{
 	font-family: 'oswaldlight', arial;
 	color: white;
 	letter-spacing: 0.01em;
-}
-
-article{
-	/*background-color: green;*/
-	display: block;
-	height: 260px;
-	padding: 0 80px;
+	padding: 0 20px;
+	width: 960px !important;
+	overflow: hidden;
 }
 
 h1{
 	font-size: 2.75em;
 	font-weight: normal;
-	margin-bottom: 10px;
+	margin: 10px 0;
 }
 
 section ul{
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	list-style: none;
-	display: block;
-	width: 830px;
-	height: 650px;
 }
 
-section ul li{
+section li{
+	background: white;
+	display: block;
 	float: left;
-	margin: 0 10px 10px 0;
-	background: #fff;
-	width: 200px;
-	height: 200px;
+	margin: 0 26px 25px 0;
+	min-height: 300px;
+	overflow: hidden;
+	width: 220px;
 }
 
-section ul li a{
+section li:nth-child(4n+4) {
+    margin: 0 0 25px 0;
+}
+
+section li:hover{
+	box-shadow: 0px 10px 20px rgba(23, 114, 162, 0.4);
+	-o-box-shadow: 0px 10px 20px rgba(23, 114, 162, 0.4);
+	-ms-box-shadow: 0px 10px 20px rgba(23, 114, 162, 0.4);
+	-moz-box-shadow: 0px 10px 20px rgba(23, 114, 162, 0.4);
+	-webkit-box-shadow: 0px 10px 20px rgba(23, 114, 162, 0.4);
+}
+
+section li a{
+	padding: 0 !important;
+	margin: 0 !important;
+	color: #4cafe3;
+}
+
+section li a:hover{
+	color: #eb8222;
+}
+
+section img{
+	width: 220px;
+	height: 220px;
+}
+
+section p{
 	display: block;
-	width: 200px;
-	height: 200px;
-	transition:background 0.5s;
-	-moz-transition:background 0.5s;
-	-ms-transition:background 0.5s;
-	-o-transition:background 0.5s;
-	-webkit-transition:background 0.5s;
+	text-align: center;
+	font-size: 18px;
+	padding: 10px 5px;
 }
-
-.sinMargen{
-	margin: 0 0 10px 0 !important;
-}
-
-.mini01{ background: url(../img/item0.jpg) no-repeat no-repeat; }
-.mini01:hover{ background: url(../img/item0on.gif) no-repeat no-repeat; }
-
-.mini02{ background: url(../img/item0.jpg) no-repeat no-repeat; }
-.mini02:hover{ background: url(../img/item0on.gif) no-repeat no-repeat; }
-
-.mini03{ background: url(../img/item0.jpg) no-repeat no-repeat; }
-.mini03:hover{ background: url(../img/item0on.gif) no-repeat no-repeat; }
-
-.mini04{ background: url(../img/item0.jpg) no-repeat no-repeat; }
-.mini04:hover{ background: url(../img/item0on.gif) no-repeat no-repeat; }
 
 
 /*-- PIE DE PAGINA --*/

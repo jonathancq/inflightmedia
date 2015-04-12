@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+html, body{
+	margin: 0;
+	padding: 0
+}
+
+*{
+	font-family: 'oswaldlight', arial;
+}
+
+#contenedor{
+	display: block;
+	width: 700px;
+	height: 350px;
+	margin: 0;
+	padding: 30px;
+}
+
+figure{
+	display: block;
+	width: 700px;
+	height: 350px;
+	margin: 0;
+}
+
+h1{
+	color: #009fc2;
+	font-size: 22px;
+	margin: 20px 0 4px 0;
+}
+
+p{
+	font-size: 16px;
+	text-align: justify;
+	padding: 0;
+	margin: 0;
+}
+
+#textoMedio{
+	display: block;
+	width: 480px;
+	padding: 0;
+	padding-right: 20px;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+
+aside{
+	float: right;
+	width: 180px;
+}
+
+aside h3{
+	color: #009fc2;
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+
+aside ul{
+	margin: 0 0 20px 16px;
+	padding: 0;
+}
+
+aside ul li, aside ul li a{
+	color: #009fc2;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.facebook{
+	display: block;
+	text-decoration: none;
+	padding: 10px 4px;
+	color: #fff;
+	background: #009fc2;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+}
+
+.facebook2{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 160px;
+	display: block;
+	text-decoration: none;
+	padding: 10px 4px;
+	color: #fff;
+	background: #009fc2;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+}
+
+.facebook:hover, .facebook2:hover{
+	background: #98c33c;
+}
+
